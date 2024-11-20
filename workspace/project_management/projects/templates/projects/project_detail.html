@@ -1,0 +1,47 @@
+<!-- templates/projects/project_detail.html -->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_title %} <title>{{project.name}}</title> {% endblock page_title %}
+
+{% block extra_resources %} <link rel="stylesheet" href="{% static 'css/project_detail.css' %}"> {% endblock extra_resources %}
+
+{% block content %}
+    <div class="container">
+        <h1>{{ project.name }}</h1>
+
+        <p><strong>Description:</strong> {{ project.description }}</p>
+        <p><strong>Start Date:</strong> {{ project.start_date }}</p>
+        <p><strong>End Date:</strong> {{ project.end_date }}</p>
+
+        <h2>Tasks</h2>
+        <table class="task-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                    <th>Assignee</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for task in tasks %}
+                    <tr>
+                        <td>{{ task.title }}</td>
+                        <td>{{ task.description }}</td>
+                        <td>{{ task.due_date }}</td>
+                        <td>{{ task.status }}</td>
+                        <td>{{ task.assignee }}</td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="5">No tasks available for this project.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <a href="{% url 'project_list' %}">Back to Project List</a>
+    </div>
+{% endblock content%}
