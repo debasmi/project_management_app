@@ -28,7 +28,7 @@ cd project_management_app
 ```bash
 python -m venv workspace
 source workspace/bin/activate  # On Mac OS/Linux
-env\Scripts\activate  # On Windows use 
+workspace\Scripts\activate  # On Windows use 
 ```
 
 ### Apply Migrations
