@@ -19,72 +19,6 @@ An easy to use project management application using Django framework developed f
 - Git
 
 ### Clone the Repository
--```bash
--git clone https://github.com/debasmi/project_management_app.git
--cd project_management_app
--```
-+```bash
-+git clone https://github.com/debasmi/project_management_app.git
-+cd project_management_app
-+```
- 
- ### Create the virtual environment(here - workspace)
--```bash
--python -m venv workspace
--# On Mac OS/Linux use 'source workspace/bin/activate'
--# On Windows use `workspace\Scripts\activate`
--```
-+```bash
-+python -m venv workspace
-+# On Mac OS/Linux use 'source workspace/bin/activate'
-+# On Windows use `workspace\Scripts\activate`
-+```
- 
- ### Apply Migrations
--```bash
--python manage.py makemigrations
--python manage.py migrate
--```
-+```bash
-+python manage.py makemigrations
-+python manage.py migrate
-+```
- 
- ### Run the Development Server
--```bash
--python manage.py runserver
--```
-+```bash
-+python manage.py runserver
-+```
-
-Visit http://127.0.0.1:8000/ to view the app in your browser.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Make your changes and commit them (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature-name`).
-5. Open a Pull Request.
-
-## Contact
-
-For any inquiries or feedback, feel free to contact me via email at [basudebasmi2006@gmail.com](mailto:basudebasmi2006@gmail.com).
-
-To format the bash commands in the style shown in the screenshot you provided, you can use the following structure in your README file. This structure is for highlighting bash commands within a "code block" for each step.
-
-```markdown
-## Installation
-
-### Prerequisites
-- Python 3.10+
-- Django 5.0.5
-- Git
-
-### Clone the Repository
 ```bash
 git clone https://github.com/debasmi/project_management_app.git
 cd project_management_app
@@ -113,7 +47,22 @@ python manage.py runserver
 ```
 
 Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) to view the app in your browser.
-```
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature-name`).
+5. Open a Pull Request.
+
+## Contact
+
+For any inquiries or feedback, feel free to contact me via email at [basudebasmi2006@gmail.com](mailto:basudebasmi2006@gmail.com).
+
+
 
 
 
