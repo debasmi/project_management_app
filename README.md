@@ -57,6 +57,7 @@ An easy to use project management application using Django framework developed f
 +```bash
 +python manage.py runserver
 +```
+
 Visit http://127.0.0.1:8000/ to view the app in your browser.
 
 ## Contributing
@@ -72,6 +73,48 @@ Contributions are welcome! Please follow these steps:
 ## Contact
 
 For any inquiries or feedback, feel free to contact me via email at [basudebasmi2006@gmail.com](mailto:basudebasmi2006@gmail.com).
+
+To format the bash commands in the style shown in the screenshot you provided, you can use the following structure in your README file. This structure is for highlighting bash commands within a "code block" for each step.
+
+```markdown
+## Installation
+
+### Prerequisites
+- Python 3.10+
+- Django 5.0.5
+- Git
+
+### Clone the Repository
+```bash
+git clone https://github.com/debasmi/project_management_app.git
+cd project_management_app
+```
+
+### Create a Virtual Environment
+```bash
+python -m venv env
+source env/bin/activate  # On Mac OS/Linux
+# On Windows use `env\Scripts\activate`
+```
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Apply Migrations
+```bash
+python manage.py migrate
+```
+
+### Run the Development Server
+```bash
+python manage.py runserver
+```
+
+Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) to view the app in your browser.
+```
+
 
 
 
