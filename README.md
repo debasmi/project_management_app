@@ -1,5 +1,7 @@
 # project_management_app
 
+An easy to use project management application using Django framework developed for an efficient project management app designed for team collaboration, task tracking, and milestone management.
+
 ![Screenshot (1902)](https://github.com/user-attachments/assets/24528c8c-03ea-45e6-ae4e-2eeebd94fabc)
 
 ![Screenshot (1905)](https://github.com/user-attachments/assets/a918b183-fca7-44ec-9380-9e838ca80fb2)
@@ -9,6 +11,17 @@
 
 ![Screenshot (1908)](https://github.com/user-attachments/assets/4d309ee9-120b-46d2-b5bb-c05ed3db3dbb)
 
+## Installation
+
+### Prerequisites
+- Python 3.10+
+- Django 5.0.5
+- Git
+
+### Clone the Repository
+```bash
+git clone 
+cd project_management_app
 
 
 
