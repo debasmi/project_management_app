@@ -10,7 +10,7 @@
 
 {% block content %}
     <div class="container">
-        <h1>Task Status Dashboard</h1>
+        <h1 style="color: brown;">Task Status Dashboard</h1>
         <canvas id="taskStatusChart" width="400" height="200"></canvas>
 
         <script>
@@ -30,25 +30,25 @@
                             "{{ tasks_by_status.closed }}",
                         ],
                         backgroundColor: [
-                            'lightgray',
-                            'pink',
+                            'black',
+                            'blue',
                             'red',
-                            '#9b2dd9',
-                            '#0fee5b',
-                            'green',
+                            '#9b2fd9',
+                            '#0ffe5b',
+                            'yellow',
                         ],
                         borderColor: [
-                            'rgba(255, 99, 132, 1)',
-                            'rgba(54, 162, 235, 1)',
-                            'rgba(255, 99, 132, 1)',
-                            'rgba(75, 192, 192, 1)',
-                            'rgba(54, 162, 235, 1)',
-                            'rgba(75, 192, 192, 1)',
+                            'brown',
+                            'brown',
+                            'brown',
+                            'brown',
+                            'brown',
+                            'brown',
                         ],
-                        borderWidth: 1,
-                        barThickness: 40, // Adjust this value to make the bars thinner
-                        maxBarThickness: 80, // Optional: Maximum bar thickness
-                        minBarLength: 2, // Optional: Minimum bar length
+                        borderWidth: 3,
+                        barThickness: 40, 
+                        maxBarThickness: 80, 
+                        minBarLength: 2, 
                     }]
                 },
                 options: {
