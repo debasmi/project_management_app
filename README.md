@@ -24,20 +24,16 @@ git clone https://github.com/debasmi/project_management_app.git
 cd project_management_app
 ```
 
-### Create a Virtual Environment
+### Create a Virtual Environment(here - workspace)
 ```bash
-python -m venv env
-source env/bin/activate  # On Mac OS/Linux
-# On Windows use `env\Scripts\activate`
-```
-
-### Install Dependencies
-```bash
-pip install -r requirements.txt
+python -m venv workspace
+source workspace/bin/activate  # On Mac OS/Linux
+env\Scripts\activate  # On Windows use 
 ```
 
 ### Apply Migrations
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
@@ -52,7 +48,7 @@ Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) to view the app in your bro
 
 Contributions are welcome! Please follow these steps:
 
-1. Fork the repository.
+1. Fork and clone the repository.
 2. Create a new branch (`git checkout -b feature/your-feature-name`).
 3. Make your changes and commit them (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature/your-feature-name`).
