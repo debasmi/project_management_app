@@ -21,22 +21,22 @@ An easy to use project management application using Django framework developed f
 ### Clone the Repository
 ```bash
 git clone https://github.com/debasmi/project_management_app.git
-cd project_management_app
+cd project_management_app```
 
 ### Create the virtual environment(here - workspace)
 ```bash
 python -m venv workspace
 # On Mac OS/Linux use 'source workspace/bin/activate'
-# On Windows use `workspace\Scripts\activate`
+# On Windows use `workspace\Scripts\activate```
 
 ### Apply Migrations
 ```bash
 python manage.py makemigrations
-python manage.py migrate
+python manage.py migrate```
 
 ### Run the Development Server
 ```bash
-python manage.py runserver
+python manage.py runserver```
 
 Visit http://127.0.0.1:8000/ to view the app in your browser.
 
