@@ -19,25 +19,44 @@ An easy to use project management application using Django framework developed f
 - Git
 
 ### Clone the Repository
-```bash
-git clone https://github.com/debasmi/project_management_app.git
-cd project_management_app```
-
-### Create the virtual environment(here - workspace)
-```bash
-python -m venv workspace
-# On Mac OS/Linux use 'source workspace/bin/activate'
-# On Windows use `workspace\Scripts\activate```
-
-### Apply Migrations
-```bash
-python manage.py makemigrations
-python manage.py migrate```
-
-### Run the Development Server
-```bash
-python manage.py runserver```
-
+-```bash
+-git clone https://github.com/debasmi/project_management_app.git
+-cd project_management_app
+-```
++```bash
++git clone https://github.com/debasmi/project_management_app.git
++cd project_management_app
++```
+ 
+ ### Create the virtual environment(here - workspace)
+-```bash
+-python -m venv workspace
+-# On Mac OS/Linux use 'source workspace/bin/activate'
+-# On Windows use `workspace\Scripts\activate`
+-```
++```bash
++python -m venv workspace
++# On Mac OS/Linux use 'source workspace/bin/activate'
++# On Windows use `workspace\Scripts\activate`
++```
+ 
+ ### Apply Migrations
+-```bash
+-python manage.py makemigrations
+-python manage.py migrate
+-```
++```bash
++python manage.py makemigrations
++python manage.py migrate
++```
+ 
+ ### Run the Development Server
+-```bash
+-python manage.py runserver
+-```
++```bash
++python manage.py runserver
++```
 Visit http://127.0.0.1:8000/ to view the app in your browser.
 
 ## Contributing
